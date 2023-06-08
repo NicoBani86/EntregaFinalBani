@@ -1,0 +1,154 @@
+/*HEADER*/
+header {
+    background-color: #b1d8d7;
+    border-bottom: 3px white solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+    position: sticky;
+    top: 0;
+    
+    
+  }
+  header a {
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: #5a605e;
+  }
+  
+  .navbar-toggler {
+    color: #5a605e;
+  }
+  .navbar-toggler.icon {
+    color: #5a605e;
+  }
+  
+  .enlacesMenu li {
+    display: inline-block;
+  }
+  
+  body {
+    background-color: #8da49c ;
+    background-size: contain;
+    overflow-x: hidden;
+  }
+  
+  footer {
+    background-color:  #b1d8d7;
+    border-top: solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  footer a {
+    text-decoration: none;
+    font-size: large;
+   
+  }
+  footer p {
+    font-size: medium;
+  }
+  
+ h1, h2 {
+    font-family: 'Yellowtail', cursive;
+    color: #2cdba2;
+    font-size: 5rem;
+  }
+
+ h3, form,  a {
+    font-family: "Open Sans" sans-serif;
+    color: #5a605e;
+  }
+  
+  /*GENERALIDADES*/
+  p {
+    font-size: large;
+  }
+  
+.aYe {
+    display: flex;
+    justify-content: center;
+}
+  .logoIndex {
+    display: flex;
+    justify-content: center;
+  }
+  .logoLetras{
+
+    display: flex;
+    justify-content: center;
+   
+    
+}
+  
+ 
+.comprar{
+   color: #fcf4b6;
+   background: transparent;
+   border-radius: 6px;
+   border: none;
+     
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+.comprar:hover {
+    background-color: #fcf4b6;
+    color: #5a605e;
+}
+
+.botonCarrito{
+    color: #5a605e;
+    background: transparent;
+    border-radius: 6px;
+    border: none;
+      
+       padding: 16px 32px;
+       text-align: center;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       -webkit-transition-duration: 0.4s; /* Safari */
+       transition-duration: 0.4s;
+       cursor: pointer;
+       text-decoration: none;
+       text-transform: uppercase;
+ }
+ .botonCarrito:hover {
+     background-color: #fcf4b6;
+     color: #5a605e;
+     
+ }
+ 
+ .totalCompra {
+  text-align: center;
+  border: 3px #fff solid;
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  background-color: #8da49c ;
+  color: #fcf4b6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+ }
+ 
